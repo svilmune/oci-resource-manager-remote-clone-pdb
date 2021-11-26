@@ -12,8 +12,8 @@ STACK MUST BE DESTROYED AFTER EACH RUN. This is due to Terraform keeping state o
 
 | Variable      | Purpose |
 | ----------- | ----------- |
-| compartment_name_source      | Source Database compartment       |
-| compartment_name_dest   | Destination Database compartment        |
+| compartment_source_name      | Source Database compartment       |
+| compartment_dest_name   | Destination Database compartment        |
 | db_source_name  | Source Database name  |
 | db_dest_name  | Destination Database name  |
 | db_source_pdb_name  |  Source PDB name  |
