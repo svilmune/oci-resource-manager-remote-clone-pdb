@@ -6,7 +6,7 @@ You need to modify variables accordingly to match your environment and have sour
 
 Modify values either in the variables.tf file or provide them during stack execution.
 
-STACK MUST BE DESTROYED AFTER EACH RUN. This is due to Terraform keeping state of the clone operation always and not updating it with the deleted destination.
+STATE MUST BE DESTROYED AFTER EACH RUN. This is due to Terraform keeping state of the clone operation always and not updating it with the deleted destination.
 
 ## Required Variables
 
