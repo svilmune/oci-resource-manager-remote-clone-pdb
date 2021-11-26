@@ -1,0 +1,12 @@
+# Delete PDB
+  - name : Delete PDB1
+    collections:
+      - oracle.oci
+    connection: local
+    hosts: localhost
+    tasks:
+      - name: Delete PDB
+        oci_database_pluggable_database:
+          pluggable_database_id: "{{ pluggable_database_id }}"
+          state: 'absent'
+        register: result
