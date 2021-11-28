@@ -8,6 +8,8 @@ Modify values either in the variables.tf file or provide them during stack execu
 
 STATE MUST BE DESTROYED AFTER EACH RUN. This is due to Terraform keeping state of the clone operation always and not updating it when pluggable database is deleted.
 
+Detailed functionality is explained on my [blog.](https://www.thatfinnishguy.blog/2021/11/28/remote-cloning-oci-database-pdb-with-oci-resource-manager-terraform-and-ansible/)
+
 ## Required Variables
 
 | Variable      | Purpose |
