@@ -1,5 +1,7 @@
 # Remote Clone Oracle Database PDB via OCI Resource Manager
 
+![Remote Clone](docs/images/OCIPDBClone.png)
+
 Easy way to start cloning your PDB's with Oracle Database to other Container Databases using OCI Resource Manager. The Stack takes care on deleting existing PDB with same name in the destination using Ansible which is integrated with OCI Resource Manager.
 
 You need to modify variables accordingly to match your environment and have source and destination databases created. 
