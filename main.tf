@@ -63,7 +63,7 @@ data "oci_identity_compartments" "dest" {
 
 // Get the DB System info using compartment and display name
 data "oci_database_db_systems" "dest" {
-    compartment_id = data.oci_identity_compartments.source.compartments.0.id
+    compartment_id = data.oci_identity_compartments.dest.compartments.0.id
     display_name = var.db_dest_name
 }
 
